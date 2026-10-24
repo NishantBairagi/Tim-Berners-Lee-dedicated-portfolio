@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Tim Berners-Lee</title>
+
+    <!-- <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #f4f7fb;
+            color: #222;
+            line-height: 1.7;
+        }
+
+        header {
+            background-color: #071b35;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h2 {
+            color: #38bdf8;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            margin-top: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #071b35, #075985);
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .hero h3 {
+            color: #7dd3fc;
+            font-weight: normal;
+            margin-bottom: 25px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: 0 auto 25px;
+        }
+
+        .hero img {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #38bdf8;
+            margin: 25px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #38bdf8;
+            color: #071b35;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: white;
+        }
+
+        section {
+            padding: 55px 20px;
+            max-width: 1050px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #075985;
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        .about p {
+            text-align: center;
+            max-width: 850px;
+            margin: auto;
+            font-size: 17px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px #00000012;
+            border-bottom: 4px solid #38bdf8;
+        }
+
+        .card h3 {
+            color: #075985;
+            margin-bottom: 10px;
+        }
+
+        .timeline {
+            max-width: 750px;
+            margin: auto;
+            border-left: 3px solid #38bdf8;
+            padding-left: 25px;
+        }
+
+        .event {
+            margin-bottom: 25px;
+        }
+
+        .event h3 {
+            color: #075985;
+        }
+
+        .quote {
+            background-color: #e0f2fe;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .quote blockquote {
+            max-width: 800px;
+            margin: auto;
+            font-size: 24px;
+            font-style: italic;
+            color: #075985;
+        }
+
+        .quote p {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #071b35;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+        }
+
+        footer span {
+            color: #38bdf8;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+
+            .quote blockquote {
+                font-size: 20px;
+            }
+        }
+    </style> -->
+</head>
+
+<body>
+
+    <header>
+        <h2>THE WEB PIONEER</h2>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#timeline">Timeline</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Tim Berners-Lee</h1>
+        <h3>The Man Who Connected The World</h3>
+
+        <!-- Replace the src value with your image URL -->
+        <img src="/html/media/tim-bernersLee.webp"
+             alt="Tim Berners-Lee">
+
+        <p>
+            The visionary computer scientist who invented the
+            World Wide Web and transformed how humanity shares
+            knowledge, communicates, and builds technology.
+        </p>
+
+        <a href="#about" class="btn">Discover His Legacy</a>
+    </div>
+
+    <section id="about" class="about">
+        <h2>About the Legend</h2>
+        <p>
+            Sir Tim Berners-Lee is a British computer scientist who
+            invented the World Wide Web in 1989 while working at CERN.
+            His revolutionary idea made it possible to access and share
+            information through websites connected by hyperlinks.
+            By making the Web freely available, he helped create an
+            open platform that developers, students, businesses, and
+            billions of people use every day.
+        </p>
+    </section>
+
+    <section id="achievements">
+        <h2>His Greatest Contributions</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>🌐 World Wide Web</h3>
+                <p>
+                    Invented the Web in 1989, changing the way
+                    people access and share information globally.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🧱 HTML</h3>
+                <p>
+                    Developed the original HTML language, which
+                    provides the basic structure of web pages.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🔗 HTTP & URLs</h3>
+                <p>
+                    Created foundational Web technologies that
+                    help browsers locate and communicate with resources.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>💡 An Open Web</h3>
+                <p>
+                    Made the Web freely available without patent
+                    royalties, encouraging innovation and development.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline">
+        <h2>A Journey That Changed History</h2>
+
+        <div class="timeline">
+            <div class="event">
+                <h3>1989 — The Big Idea</h3>
+                <p>
+                    Proposed a system for sharing information
+                    across computer networks at CERN.
+                </p>
+            </div>
+
+            <div class="event">
+                <h3>1990 — The First Website</h3>
+                <p>
+                    Developed the first web browser, web server,
+                    and the foundations of HTML and HTTP.
+                </p>
+            </div>
+
+            <div class="event">
+                <h3>1991 — The Web Goes Public</h3>
+                <p>
+                    The first website became publicly accessible
+                    outside CERN.
+                </p>
+            </div>
+
+            <div class="event">
+                <h3>1993 — A Free Web</h3>
+                <p>
+                    CERN made the Web software available royalty-free,
+                    helping the Web grow worldwide.
+                </p>
+            </div>
+
+            <div class="event">
+                <h3>2004 — Knighted</h3>
+                <p>
+                    Received a knighthood in recognition of his
+                    pioneering work in developing the Web.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="quote">
+        <blockquote>
+            "The Web is more a social creation than a technical one."
+        </blockquote>
+        <p>— Tim Berners-Lee</p>
+    </div>
+
+    <section class="about">
+        <h2>A Message to Every Developer</h2>
+        <p>
+            Every website we build, every application we create,
+            and every line of HTML we write stands on the foundation
+            of an extraordinary idea. As developers, we do not simply
+            write code; we create experiences, connect people, and
+            solve real-world problems.
+            <br><br>
+            <strong>
+                Thank you, Sir Tim Berners-Lee, for giving the world
+                a platform where imagination becomes reality.
+            </strong>
+        </p>
+    </section>
+
+    <footer>
+        <p>Created with <span>♥</span> by a developer</p>
+        <p>Inspired by the man who made the Web possible.</p>
+    </footer>
+
+</body>
+</html>
